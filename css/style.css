@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3ebeb69;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* page container*/
+.container-page{ 
+    width: 99%;
+    margin: 0 auto;
+}
+
+/*GRID*/
+.container-grid{
+    display: grid;
+    grid-template-columns: 30% 67%; 
+    gap:1em;
+    
+}
+
+/*LEFT COLUMN */
+.container-left{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #000;
+    margin-top: 1em;
+    background-color: #fff;
+
+}
+
+.container-left img{
+    width: 100%;
+    height: 200px;
+}
+
+h1{ 
+    padding: 10px;
+    bottom: 0;
+    font-size: 1em;
+    color: #FFF;
+}
+
+
+.container-left p{
+    padding: 15px;
+
+}
+
+p>a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*Skills*/
+.container-left h2{
+    padding: 15px;
+}
+/*other skills*/
+.container-left-other-skills{
+padding: 1em;
+border: 1px solid ;
+}
+
+/*column right*/
+.container-right{
+    margin-top: 1em;
+    padding: 15px;
+    border: solid 1px #000;
+    background-color: #fff;
+
+}
+b{
+    padding: 15px;
+
+}
+
+article h2,
+article h5{
+    padding: 15px;
+}
+
+/*work container*/
+.container-work{
+margin-bottom: 1em;
+}
+
+/*aside-education*/
+aside{
+    border: 1px solid ;
+    padding: 15px;
+}
+
+/* .aside-container{
+} */
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #eb8934 ;
+}
+.footer p,
+.footer h5,
+#index{
+    font-size: 16px;
+    padding: 5px;
+    color: #000;
+}
+
+
+.footer a{
+    text-decoration: none;
+}
+a>svg{
+    color: #000;
+    padding: 2px;
+
+}
+
+/*Media*/
+
+/* At the top level of your code */
+@media screen and (max-width: 600px) {
+    .container-grid{
+        display: flex;
+        flex-direction: column;        
+    gap: 0;
+    }
+}
+
+
