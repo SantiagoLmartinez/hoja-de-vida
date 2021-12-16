@@ -16,6 +16,8 @@ svg {
     color: #eb8934;
     
 }
+.icon{ color: #eb8934;
+}
 
 .svg-50px{
     width: 50px;
@@ -24,4 +26,10 @@ svg {
 span{
     background-color: #eb8934;
     border-radius: 5px ;
+}
+
+/*Text decoration*/
+.txt-decoration-none{
+    text-decoration: none;
+    color: #000;
 }
